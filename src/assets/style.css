@@ -325,15 +325,62 @@ gap: 10px;
     width: 500px;
     height: 550px;
 }
-
+.form1-container{
+    height: 89vh;
+}
 
 
 
 /* =================login-signUp================ */
-.input .name, .email-phone, .password{
+/* .input .name, .email-phone, .password{
     border-bottom: 2px solid rgb(226, 219, 219);
     width: 300px;
-}
+} */
 .input p{
-    color:rgb(168, 166, 166) ;
+    color:rgb(190, 183, 183) ;
+}
+.signUp-form button{
+    width: 300px;
+    height: 45px;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.signUp-form .button{
+    gap: 10px;
+
+}
+.signUp-form img{
+    width: 25px;
+    position: absolute;
+    top: 113px;
+    left: 40px;
+}
+.signUp-form input{
+outline: none;
+width: 300px;
+border-bottom: 2px solid rgb(226, 219, 219);
+border-top: none;
+border-left: none;
+border-right: none;
+
+}
+.signUp-form .input{
+    gap: 30px;
+}
+.already-account button{
+    height: 27px;
+    width: 46px;
+    outline: none;
+    border-bottom: 1px solid;
+    border-left: navajowhite;
+    border-right: none;
+    border-top: none;
+}
+.user-sign-up-container{
+height: 89vh;
+}
+.user-sign-up img{
+    width: 500px;
+    height: 550px;
 }
