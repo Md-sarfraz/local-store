@@ -16,27 +16,39 @@ const Navbar = () => {
 
                         <li className="w-auto">About</li>
                     </Link>
-                    <Link to='/signUp' className="text-decoration-none text-black w-auto">
+                    <Link to='/signUp' className="text-decoration-none text-black w-auto" data-bs-toggle="dropdown" aria-expanded="false">
 
                         <li className="w-auto signUp-dropdown">Sign Up</li>
                     </Link>
+                    <div class="dropdown">
+
+
+                        {/* <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button> */}
+                        <ul className="dropdown-menu">
+                            <Link to='/StoreRegistration' className="text-decoration-none text-black w-auto dropdown-item">
+
+                                <li className="list-unstyled">Store Registration</li>
+                            </Link>
+
+                            <Link to='/UserRegistration' className="text-decoration-none text-black w-auto dropdown-item">
+
+                                <li className="list-unstyled">User Registration</li>
+                            </Link>
+
+
+                        </ul>
+                        {/* 
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul> */}
+                    </div>
 
                 </ul>
-                <div className="dropdown">
-                    <ul className="">
-                        <Link to='/StoreRegistration' className="text-decoration-none text-black w-auto">
 
-                            <li className="list-unstyled">Store Registration</li>
-                        </Link>
-
-                        <Link to='/UserRegistration' className="text-decoration-none text-black w-auto">
-
-                        <li className="list-unstyled">User Registration</li>
-                        </Link>
-
-                       
-                    </ul>
-                </div>
             </div>
             <div className="left-navbar col-4 d-flex justify-content-center align-items-center  ">
                 <div className="search-input">

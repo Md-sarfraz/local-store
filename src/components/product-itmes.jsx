@@ -1,17 +1,26 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 const ProductItmes = (props) => {
     return (
         <div>
             <div className='d-flex product-box justify-content-center align-items-center rounded-1 '>
                 <div className=' product-image'>
+                    <Link to='/ProductView' className="text-decoration-none text-black w-auto" data-bs-toggle="dropdown" aria-expanded="false">
+
                     <img src={`./images/${props.image}`} alt="" />
+                    </Link>
+                    
                 </div>
                 <div className='product-views-like d-flex flex-column'>
                     <div className='product-like rounded-5 justify-content-center d-flex align-items-center'>
-                    <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-heart"></i>
                     </div >
                     <div className='product-views rounded-5 justify-content-center d-flex align-items-center '>
-                    <i class="bi bi-eye"></i>
+
+                        <Link to='/ProductView' className="text-decoration-none text-black w-auto" data-bs-toggle="dropdown" aria-expanded="false">
+
+                            <i class="bi bi-eye"></i>
+                        </Link>
                     </div>
                 </div>
             </div>

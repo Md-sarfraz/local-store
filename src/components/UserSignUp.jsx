@@ -18,6 +18,9 @@ const UserSignUp = () => {
                     <div className="Password">
                     <input className='' type="text" placeholder='Password' />
                     </div>
+                    <div className="Password">
+                    <input className='' type="text" placeholder='confirm Password' />
+                    </div>
                 </div>
                 <div className="button position-relative d-flex flex-column pt-5">
                     <button>Create Accont</button>

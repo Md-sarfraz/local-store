@@ -8,6 +8,8 @@ import UserRegistration from './views/UserRegistration';
 import SignUp from './views/signUp';
 import StoreRegistration from './views/StoreRegistration';
 import Login from './views/Login';
+import ProductView from './views/ProductView';
+
 function App() {
 
 
@@ -15,6 +17,7 @@ function App() {
     <div className="row m-0 p-0">
       <Navbar />
       <Routes>
+      <Route path='ProductView' element={<ProductView/>} />
       <Route path='Login' element={<Login/>} />
       <Route path='/UserRegistration' element={<UserRegistration/>} />
       <Route path='/StoreRegistration' element={<StoreRegistration />} />
