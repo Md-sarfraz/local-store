@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import CategoriesBox from "../components/categoriesBox";
 import Heading from "../components/heading";
 import Aside from "../components/Aside";
+import Slider from "../components/Slider";
 import StoreRegistrationForm from "../components/Form1";
 const Home = () => {
     return (
@@ -13,8 +14,8 @@ const Home = () => {
                     <div className="sidebar">
                         <Aside/>
                     </div>
-                    <div className="brand-image">
-                        <img src="./images/home-slider-img1.png" alt="" />
+                    <div className="owlcrausel-slider row m-0 p-0 overflow-hidden d-flex justify-content-start align-items-center">
+                    <Slider/>
                     </div>
                 </div>
                 <div className="pt-5">

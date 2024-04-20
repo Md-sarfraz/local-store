@@ -8,7 +8,9 @@
     border-bottom: 2px solid rgb(238, 226, 226);
     height: 80px;
 }
-
+.navbar-list li:hover{
+    color: #DB4444;
+}
 .navbar-logo img {
     width: 200px;
     margin-right: 135px;
@@ -174,19 +176,19 @@
     border-bottom: 2px solid rgb(238, 226, 226);
 }
 
-.brand-image {
+.owlcrausel-slider{
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.brand-image img {
+/* .owlcrausel-slider  img {
     width: 100%;
     height: 50vh;
     background-size: cover;
     margin: 55px;
-}
+} */
 
 
 /* ==============todays-section================ */
@@ -615,4 +617,178 @@
     border: 2px solid black;
     border-radius: 5px;
     background-color: #F5F5F5;
+}
+
+
+/* =====================  about section=============== */
+
+.about-section{
+    width: 100%;
+}
+.our-story-img{
+
+}
+.our-story-img img{
+width: 570px;
+
+}
+.our-story{
+    width: 100%;
+}
+.our-story-content{
+padding-left: 200px;
+padding-right: 150px;
+}
+.about-service{
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+}
+.about-service:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.about-service img{
+    width: 60px;
+}
+.about-service-container{
+    gap: 50px;
+    padding-top: 150px;
+}
+.team-photo img{
+    width: 355px;
+}
+.about-team .socialmedia{
+    gap: 15px;
+    padding-top:10px ;
+}
+.about-team .socialmedia i{
+    font-size: 25px;
+}
+.our-team-container{
+    gap: 50px;
+    margin-top: 150px;
+}
+
+.service-container{
+    gap: 50px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.call-icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+.call-to-us{
+    height: 170px;
+    width: 294px;
+    border-bottom: 2px solid;
+}
+.write-to-us{
+    height: 240px;
+    width: 294px;
+    
+}
+.contact-section{
+    width: 100%;
+    height: 89vh;
+    gap: 70px;
+}
+.about-contact p{
+font-size: 18px;
+}
+.about-contact{
+    width: 380px;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact-details{
+    gap: 20px;
+    width: 868px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 470px;
+}
+.contact-details textarea{
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+.contact-name-email-phone{
+gap: 10px;
+}
+.contact-name-email-phone input{
+    width: 251px;
+    height: 45px;
+    background-color: #F5F5F5;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+}
+.send-messege button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    color: white;
+  
+}
+.send-messege{
+    width: 100%;
+    justify-content: right;
+    margin-right: 85px;
+}
+
+/* .owl-theme{
+    overflow: hidden;
+}
+.item{
+    width: 100%;
+    height: 100%;
+
+} */
+.owl-dots {
+    position: absolute;
+    top: 267px;
+    left: 494px;
+}
+.owl-nav{
+    display: none;
+}
+.Dashboard-container{
+    width: 100%;
+    height: 89vh;
+    gap: 70px; 
+}
+.account-info input{
+    width: 400px;
+    height: 48px;
+    outline: none;
+    border: none;
+    background-color:#F5F5F5 ;
+}
+.password-changes{
+    gap: 20px;
+}
+.password-changes input{
+    width: 93%;
+    height: 48px;
+    outline: none;
+    border: none;
+    background-color:#F5F5F5 ;
+   
+}
+ .button{
+    display: flex !important;
+    justify-content: right;
+    width: 93%;
+}
+.account-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.userSidebar p{
+    margin-left: 10px !important;
+    color: #9a9999;
 }

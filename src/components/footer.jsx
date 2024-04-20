@@ -3,7 +3,7 @@ const Footer=()=>{
     return(
         <>
         <div className="footer-container row flex-row justify-content-center">
-           <div className="exclusive-part  d-flex  flex-column col-2 justify-content-center">
+           <div className="exclusive-part  d-flex  flex-column  col-4 col-lg-2 justify-content-center">
             <h4>Exclusive</h4>
             <h5>Subscriber</h5>
             <p>Get 10% of your first order</p>
@@ -14,7 +14,7 @@ const Footer=()=>{
            </div>
           
 
-           <div className="support-part  d-flex  flex-column col-2 justify-content-center">
+           <div className="support-part  d-flex  flex-column col-4 col-lg-2 justify-content-center">
             <h5>Support</h5>
             <p>111 Bijay sarani,Dhaka</p>
             <p>DH 1515,Bangladesh</p>
@@ -22,7 +22,7 @@ const Footer=()=>{
             <p>+8015-8888-9999</p>
            </div>
 
-           <div className="Account-part  d-flex  flex-column col-2 justify-content-center">
+           <div className="Account-part  d-flex  flex-column col-4 col-lg-2 justify-content-center">
             <h5>Account</h5>
             <p>MY Account</p>
             <p>Login\Register</p>
@@ -31,7 +31,7 @@ const Footer=()=>{
             <p>Shop</p>
            </div>
 
-           <div className="quick-link-part  d-flex  flex-column col-2 justify-content-center">
+           <div className="quick-link-part  d-flex  flex-column col-4 col-lg-2 justify-content-center">
             <h5>Quick Link</h5>
             <p>Privacy Policy</p>
             <p>Terms Of Use</p>
@@ -40,7 +40,7 @@ const Footer=()=>{
            </div>
 
 
-           <div className="Download-part  d-flex flex-column col-2 justify-content-center">
+           <div className="Download-part  d-flex flex-column col-4 col-lg-2 justify-content-center">
             <h5>Download App</h5>
             <span>Save $3 With App New User Only</span>
             <div className="qrcode d-flex">

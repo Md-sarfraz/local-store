@@ -38,7 +38,7 @@ const ProductDetails = () => {
               <p>(150 Reviews)</p>
             </div>
             <div className="stock">
-              <span>In Stock</span>
+              <span className='fw-bold'>In Stock</span>
             </div>
           </div>
           <span className='fs-4 fw-bold'>$192.00</span>
@@ -71,9 +71,9 @@ const ProductDetails = () => {
             </div>
           </div>
           
-          <div className="btn">
-            <button className='btn1'>BUY NOW</button>
-            <button className='btn2'>ADD TO CART</button>
+          <div className="row m-0 p-0">
+            <button className='btn btn-danger border border-1 w-auto me-2'>BUY NOW</button>
+            <button className='btn btn-transparent border border-1 w-auto ms-2'>ADD TO CART</button>
           </div>
         </div>
       </div>

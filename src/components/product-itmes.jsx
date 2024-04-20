@@ -5,7 +5,7 @@ const ProductItmes = (props) => {
         <div>
             <div className='d-flex product-box justify-content-center align-items-center rounded-1 '>
                 <div className=' product-image'>
-                    <Link to='/ProductView' className="text-decoration-none text-black w-auto" data-bs-toggle="dropdown" aria-expanded="false">
+                    <Link to='/ProductDetails' className="text-decoration-none text-black w-auto">
 
                     <img src={`./images/${props.image}`} alt="" />
                     </Link>
@@ -17,7 +17,7 @@ const ProductItmes = (props) => {
                     </div >
                     <div className='product-views rounded-5 justify-content-center d-flex align-items-center '>
 
-                        <Link to='/ProductView' className="text-decoration-none text-black w-auto" data-bs-toggle="dropdown" aria-expanded="false">
+                        <Link to='/ProductView' className="text-decoration-none text-black w-auto" >
 
                             <i class="bi bi-eye"></i>
                         </Link>
