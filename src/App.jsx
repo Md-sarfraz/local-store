@@ -1,9 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
+import 'animate.css';
 import Home from './views/home';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import About from './views/about';
-import './assets/style.css'
+import './assets/style.css';
 import UserRegistration from './views/UserRegistration';
 import SignUp from './views/signUp';
 import StoreRegistration from './views/StoreRegistration';

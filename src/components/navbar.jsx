@@ -35,7 +35,7 @@ const Navbar = () => {
 
                                     <li className="list-unstyled">Store Registration</li>
                                 </Link>
-
+                                
                                 <Link to='/UserRegistration' className="text-decoration-none text-black w-auto dropdown-item">
 
                                     <li className="list-unstyled">User Registration</li>

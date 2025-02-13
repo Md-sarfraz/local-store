@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 const ProductItmes = (props) => {
     return (
-        <div>
+        <div className='animate__animated animate__fadeInDown animate__delay-1s '>
             <div className='d-flex product-box justify-content-center align-items-center rounded-1 '>
                 <div className=' product-image'>
                     <Link to='/ProductDetails' className="text-decoration-none text-black w-auto">

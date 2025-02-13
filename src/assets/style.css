@@ -221,8 +221,12 @@
     position: relative;
 }
 
+.product-box:hover img {
+    transform: scale(1.2); /* Zoom the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
 .product-box img {
-    height: 150px;
+    height: 110px;
 }
 
 .product-views-like {
@@ -791,4 +795,7 @@ gap: 10px;
 .userSidebar p{
     margin-left: 10px !important;
     color: #9a9999;
+}
+.form1-container{
+    gap: 150px;
 }

@@ -5,6 +5,7 @@ import CategoriesBox from "../components/categoriesBox";
 import Heading from "../components/heading";
 import Aside from "../components/Aside";
 import Slider from "../components/Slider";
+import 'animate.css';
 import StoreRegistrationForm from "../components/Form1";
 const Home = () => {
     return (
@@ -38,9 +39,9 @@ const Home = () => {
                         <CountdownTimer targetDate="2024-05-01T00:00:00" />
                     </div>
                 </div>
-                <div className="product-container ">
+                <div className="product-container animate__animated animate__fadeInDown animate__delay-2s ">
                     <div className="product-itmes d-flex flex-wrap justify-content-center ">
-                        <ProductItmes image='book.png' productName='Breed Dry Dog Food' price='100' />
+                        <ProductItmes image='book.png' productName='Breed Dry Dog Food' price='100'/>
                         <ProductItmes image='laptop.png' productName='AK-900 Wired Keyboard' price='199' />
                         <ProductItmes image='monitor.png' productName='IPS LCD Gaming Monitor' price='370' />
                         <ProductItmes image='shoes.png' productName='Jr. Zoom Soccer Cleats' price='99' />
